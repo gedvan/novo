@@ -1,0 +1,28 @@
+{
+  "name": "novo",
+  "version": "0.0.1",
+  "description": "Novo is a modern and clean Drupal 8 theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedvan/novo.git"
+  },
+  "keywords": [
+    "drupal",
+    "d8",
+    "theme"
+  ],
+  "author": "Gedvan Dias <gedvan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gedvan/novo/issues"
+  },
+  "homepage": "https://github.com/gedvan/novo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  }
+}

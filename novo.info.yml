@@ -1,0 +1,12 @@
+name: Novo
+type: theme
+description: 'A modern and clean Drupal 8 theme.'
+core: 8.x
+base theme: classy
+libraries:
+  - novo/styles
+regions:
+  header: Header
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
