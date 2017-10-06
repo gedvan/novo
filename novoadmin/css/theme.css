@@ -1,0 +1,58 @@
+.region-header h1.page-title {
+  margin-top: .1em;
+  font-size: 32px;
+  font-weight: 300;
+}
+.block-local-tasks-block nav.tabs :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.block-local-tasks-block nav.tabs li {
+  float: left;
+  margin-right: 0;
+}
+.block-local-tasks-block nav.tabs li a {
+  color: #555555;
+}
+.block-local-tasks-block nav.tabs li a:hover,
+.block-local-tasks-block nav.tabs li a:focus {
+  color: #318ed9;
+  background: transparent;
+}
+.block-local-tasks-block nav.tabs li.is-active a {
+  font-weight: bold;
+  color: #318ed9;
+}
+.block-local-tasks-block nav.tabs ul.primary {
+  margin-bottom: 0;
+}
+.block-local-tasks-block nav.tabs ul.primary li a {
+  padding: .4em 1em;
+}
+.block-local-tasks-block nav.tabs ul.primary li.is-active {
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+}
+.block-local-tasks-block nav.tabs ul.primary li.is-active a {
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+.block-local-tasks-block nav.tabs ul.secondary li a {
+  padding: .4em .8em;
+  border-bottom: 3px solid transparent;
+}
+.block-local-tasks-block nav.tabs ul.secondary li a:hover,
+.block-local-tasks-block nav.tabs ul.secondary li a:focus {
+  border-bottom-color: #318ed9;
+}
+.block-local-tasks-block nav.tabs ul.secondary li.is-active a {
+  background: transparent;
+  border-bottom-color: #318ed9;
+}
+#content {
+  background: white;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+  padding: 10px 20px 20px;
+  position: relative;
+}

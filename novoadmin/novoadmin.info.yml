@@ -1,0 +1,13 @@
+name: 'Novo Admin'
+type: theme
+base theme: classy
+description: 'A modern and clean Drupal administration theme.'
+core: 8.x
+libraries:
+  - novoadmin/global-styling
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'

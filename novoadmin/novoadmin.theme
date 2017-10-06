@@ -1,0 +1,7 @@
+<?php
+
+function novoadmin_preprocess_page(&$variables) {
+}
+
+function novoadmin_preprocess_region(&$variables) {
+}
