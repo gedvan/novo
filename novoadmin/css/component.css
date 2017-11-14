@@ -1,0 +1,50 @@
+nav.breadcrumb li {
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px white;
+}
+nav.breadcrumb li:before {
+  content: '\203A';
+  font-size: 17px;
+  line-height: 1;
+  margin: 0 .3em;
+  vertical-align: text-bottom;
+  color: #ccc;
+}
+nav.breadcrumb a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+nav.breadcrumb a:hover,
+nav.breadcrumb a:focus {
+  color: #318ed9;
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  border-top: 1px solid #ddd;
+}
+table tr {
+  border-bottom: 1px solid #ddd;
+}
+table tr.odd {
+  background-color: #fafafa;
+}
+table tr:hover {
+  background-color: #fff9ce;
+}
+table th,
+table td {
+  padding: .4em;
+}
+table thead tr {
+  border-bottom-width: 2px;
+}
+button.tabledrag-toggle-weight {
+  font-size: 12px;
+  color: #888888;
+}
+button.tabledrag-toggle-weight:hover,
+button.tabledrag-toggle-weight:focus {
+  color: #318ed9;
+}
