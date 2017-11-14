@@ -1,0 +1,22 @@
+
+@import "variables";
+@import "mixins";
+
+
+body {
+  color: @text-color;
+  background-color: @color-gray-lighter;
+}
+
+a {
+  color: @link-color;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: @link-color-hover;
+    text-decoration: underline;
+  }
+}
+
+.layout-container {
+}

@@ -1,0 +1,46 @@
+
+//
+// Colors
+//
+
+// Primary palette
+@color-primary:         #0678be;
+@color-primary-light:   #3b9dd9;
+@color-primary-lighter: #95c2df;
+@color-primary-dark:    #245877;
+
+// Gray palette
+@color-gray-darker:     #1a1a1a;
+@color-gray-dark:       #555555;
+@color-gray-medium:     #808080;
+@color-gray-light:      #cccccc;
+@color-gray-lighter:    #e6e6e6;
+
+// Specific elements
+@text-color: @color-gray-dark;
+@link-color: @color-primary;
+@link-color-hover:@color-primary-dark;
+
+
+//
+// Breakpoints & Media queries
+//
+
+@breakpoint-medium: 800px;
+@breakpoint-large:  1200px;
+
+@breakpoint-small-max:  (@breakpoint-medium - 1);
+@breakpoint-medium-max: (@breakpoint-large - 1);
+
+@query-small-max:   ~'all and (max-width: @{breakpoint-small-max})';
+@query-medium-min:  ~'all and (min-width: @{breakpoint-medium})';
+@query-medium-max:  ~'all and (max-width: @{breakpoint-medium-max})';
+@query-medium-only: ~'all and (min-width: @{breakpoint-medium}) and (max-width: @{breakpoint-medium-max})';
+@query-large-min:   ~'all and (min-width: @{breakpoint-large})';
+
+//
+// Layout container sizes
+//
+
+@container-medium: 740px;
+@container-large: 1140px;
